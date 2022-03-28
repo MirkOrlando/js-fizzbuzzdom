@@ -17,12 +17,15 @@ for (let i = 1; i <= 100; i++) {
   /* verificare se i è multipo di 3 o di 5 o di 3 e 5 */
   if (fizzBuzzElement % 3 == 0 && fizzBuzzElement % 5 == 0) {
     fizzBuzzElement = "FizzBuzz";
+    squareElement.classList.remove("bg-primary");
     squareElement.classList.add("bg-danger");
   } else if (fizzBuzzElement % 5 == 0) {
     fizzBuzzElement = "Buzz";
+    squareElement.classList.remove("bg-primary");
     squareElement.classList.add("bg-warning");
   } else if (fizzBuzzElement % 3 == 0) {
     fizzBuzzElement = "Fizz";
+    squareElement.classList.remove("bg-primary");
     squareElement.classList.add("bg-success");
   }
 
