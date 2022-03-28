@@ -1,5 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: #183a4a;
+}
+
+.square_container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex: 7;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
