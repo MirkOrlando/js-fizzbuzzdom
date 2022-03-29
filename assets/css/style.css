@@ -16,5 +16,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: calc(100% / 12);
+  flex-basis: calc(100% / 7 - 1rem);
 }
